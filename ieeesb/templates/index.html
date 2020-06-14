@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>IEEE SB - JDCOEM</title>
+<!--
+Upper Template
+http://www.templatemo.com/tm-497-upper
+-->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='font-awesome-4.5.0/css/font-awesome.min.css' ) }}">                
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css' ) }}">                                      
+    <!-- Bootstrap style -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/hero-slider-style.css' ) }}">                              
+    <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css' ) }}">                                 
+    <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-style.css' ) }}">                                  
+    <!-- Templatemo style -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+</head>
+
+    <body>
+        
+        <!-- Content -->
+        <div class="cd-hero">
+
+            <!-- Navigation -->        
+            <div class="cd-slider-nav">
+                <nav class="navbar">
+                    <div class="tm-navbar-bg">
+                        
+                        <a class="navbar-brand text-uppercase" href="#"> <img style="padding: 15px; width:auto;" class="tm-brand-icon" src="{{ url_for('static', filename='img/IEEEblack3.png' ) }}"> SB-JDCOEM</a>
+
+                        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                            &#9776;
+                        </button>
+                        <div class="collapse navbar-toggleable-md text-xs-center text-uppercase tm-navbar" id="tmNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item active selected">
+                                    <a class="nav-link" href="#0" data-no="1">HOME <span class="sr-only">(current)</span></a>
+                                </li>                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#0" data-no="2">WIE Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#0" data-no="3">IEEE Day</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#0" data-no="4">Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#0" data-no="5">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#0" data-no="6">Contact</a>
+                                </li>
+                            </ul>
+                        </div>                        
+                    </div>
+
+                </nav>
+            </div> 
+
+            <ul class="cd-hero-slider">
+
+                <!-- Page 1 Home -->
+                <li class="selected">
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content tm-page-pad" data-page-no="1">
+                            <div class="row">
+                                    <div class="tm-3-col-container">                                        
+                                            <div class="col-xs-12 col-sm-12 col-lg-3 tm-3-col-textbox">
+                                                <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner">
+                                                    <img class="text-center tm-home-fa home-page-icon" src="{{ url_for('static', filename='img/IEEEblack2.png' ) }}">
+                                                    <h2 class="tm-text-title" style="text-align: center;">IEEE</h2>                                           
+                                                    <p class="tm-text" style="text-align: justify; text-justify: inter-word;">
+                                                        IEEE, being the world's largest technical/professional society, continuosly promotes the development and application of
+                                                        electrotechnology and allied sciences for the advancement of the profession. With the 4,30,000 members spanning across 165 countries of the globe, IEEE
+                                                        fosters the development of standards, that often become national and international standards and produces over 30% of the world's literature
+                                                        in its related fields, publishing over 100 peer-reviewed journal.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-12 col-lg-3 tm-3-col-textbox">
+                                                <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner">
+                                                    <img class="text-center tm-home-fa home-page-icon" src="{{ url_for('static', filename='img/IEEEblack3.png' ) }}">
+                                                    <h2 class="tm-text-title" style="text-align: center;">IEEE Nagpur Subsection</h2>
+                                                    <p class="tm-text" style="text-align: justify; text-justify: inter-word;">
+                                                        Coming into existence, The Nagpur Subsection was officially established on 3rd September 2017.
+                                                        It consists of technical professionals as well as students from various institutions. 
+                                                        The agenda behind the formation of this sub-section is to torch the paths of Engineering students and proffesionals, 
+                                                        and prepare them for the competent world out thereand to accept the globally posed challenges confidentally, via varios Events
+                                                        that we organize to update knowledge and enhance skill sets.
+                                                    </p>
+                                                </div>          
+                                            </div>
+                                            <div class="col-xs-12 col-sm-12 col-lg-6 tm-3-col-textbox">
+                                                <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner">
+                                                    <img class="text-center tm-home-fa home-page-icon" src="{{ url_for('static', filename='img/jd.png' ) }}">
+                                                    <h2 class="tm-text-title" style="text-align: center;">JDCOEM</h2>
+                                                    <p class="tm-text" style="text-align: justify; text-justify: inter-word;">
+                                                        J D College of Engineering and Management has been established with the primary objective of imparting technical and management education of high standards aiming at creating professionals par excellence. 
+                                                        
+                                                        JDCOEM is affiliated to RTM Nagpur University and can boast of University rank holders in its very first graduating batch, 2011-12. With Excellence as its mission and Merit as its Motto, JDCOEM is fast evolving as one of the best institutions in the region. 
+                                                        From 2017 JDCOEM affiliated with Dr. Babasaheb Ambedkar Technical University, Lonere. And in 2019 the JDCOEM awarded as Autonomous Status by UGC. 
+                                                        JDCOEM offers Graduate and post-graduate programs in many core branches in the disciplines of Engineering and Management.
+                                                    </p>
+                                                </div>          
+                                            </div>                                        
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <!-- Page 2 Gallery One -->
+                <li>                    
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content" data-page-no="2" data-page-type="gallery">
+                            <div class="tm-img-gallery-container">
+                                <div class="tm-img-gallery gallery-one">
+                                <!-- Gallery One pop up connected with JS code below -->                                    
+                                    <div class="tm-img-gallery-info-container">                                    
+                                        <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">Women In Engineering</span></h2>
+                                        <p class="tm-text">
+                                            Women in engineering, an event organized under IEEE Nagpur Subsection, was held on 9th Sept 2019 and hosted in JD College of Engineering and Management, Nagpur.
+                                            Guidance by national and international keynote speakers were provided to the attendees.
+                                            The event also included Networking session and idea pitching competition
+                                            IEEE Certifications were also provided for the whole session.
+                                        </p>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i1.png' ) }}" style="width: 380px; height: 400px;" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Prof. Prerna Gaur </h2>
+                                                <p class="tm-figure-description">Chair, IEEE Delhi Section</p>
+                                                <a href="{{ url_for('static', filename='img/i1-l.png' ) }}">View more</a>
+                                                <a href="{{ url_for('static', filename='img/i4.jpg' ) }}">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i3.jpeg' ) }}" style="width: 380px; height: 400px;" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Dr. Rachana Garg</h2>
+                                                <p class="tm-figure-description">Vice Chair, IEEE Delhi Section</p>
+                                                <a href="{{ url_for('static', filename='img/i3-l.jpg' ) }}">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i2.jpg' ) }}" alt="Image" style="width: 380px; height: 400px;" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Dr. Preeti Bajaj</h2>
+                                                <p class="tm-figure-description">Principal and Director, GHRCE, Nagpur</p>
+                                                <a href="{{ url_for('static', filename='img/i2-l.jpg' ) }}">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i19.jpg' ) }}" style="width: 380px; height: 400px;" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Dr. Rajshree Jain</h2>
+                                                <p class="tm-figure-description">Secretary, IEEE Pune Subsection</p>
+                                                <a href="{{ url_for('static', filename='img/i19.jpg' ) }}">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i20.jpeg' ) }}" style="width: 380px; height: 400px;" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Mr. Arvind Kumar</h2>
+                                                <p class="tm-figure-description">Centre Head, TCS, Nagpur</p>
+                                                <a href="{{ url_for('static', filename='img/i5.jpg' ) }}">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>        
+                                                                                                      
+                                </div>                                 
+                            </div>
+                        </div>                                                    
+                    </div>                    
+                </li>
+
+                <!-- Page 3 Gallery Two -->
+                <li>                    
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content" data-page-no="3" data-page-type="gallery">
+                            <div class="tm-img-gallery-container tm-img-gallery-container-2">
+                                <div class="tm-img-gallery gallery-two">
+                                <!-- Gallery Two pop up connected with JS code below -->
+                                    
+                                    <div class="tm-img-gallery-info-container">                                    
+                                        <h2 class="tm-text-title tm-gallery-title"><span class="tm-white">IEEE Day</span></h2>
+                                        <p class="tm-text"><span class="tm-white">
+                                            We have celebrated IEEE day in our campus on 10th Oct 2019, and performed photoshoot on IEEE too.
+                                            We had also sent these photos on "Global Photoshoot Competition" of IEEE and won 1st prize in the long video category too. We had also arranged the C-Gramming programming competition on this occassion.
+                                        </span>
+                                        </p>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i10.jpg' ) }}" style="width: 542px; height: 544px;" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">IEEE Day Photoshoot</h2>
+                                                <p class="tm-figure-description">Human IEEE Logo</p>
+                                                <a href="{{ url_for('static', filename='img/i10.jpg' ) }}">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i11.jpg' ) }}" style="width: 542px; height: 544px;" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">IEE Day <span>Cake</span></h2>
+                                                <p class="tm-figure-description">Cake Cutting</p>
+                                                <a href="{{ url_for('static', filename='img/i11.jpg' ) }}">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i12.jpg' ) }}" style="width: 542px; height: 544px;" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">C-Gramming <span>Competition</span></h2>
+                                                <p class="tm-figure-description">The organized Coding Competition</p>
+                                                <a href="{{ url_for('static', filename='img/i12.jpg' ) }}">View more</a>
+                                                <a href="{{ url_for('static', filename='img/i13.jpg' ) }}">View more</a>
+                                                <a href="{{ url_for('static', filename='img/i14.jpg' ) }}">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i15.jpg' ) }}" style="width: 542px; height: 544px;" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">C-Gramming <span>Final Round</span></h2>
+                                                <p class="tm-figure-description">The Buzzer Round</p>
+                                                <a href="{{ url_for('static', filename='img/i15.jpg' ) }}">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i16.jpg' ) }}" style="width: 542px; height: 544px;" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">C-Gramming <span>Prize Distribution</span></h2>
+                                                <p class="tm-figure-description">Felicitation Ceremony</p>
+                                                <a href="{{ url_for('static', filename='img/i16.jpg' ) }}">View more</a>
+                                                <a href="{{ url_for('static', filename='img/i17.jpg' ) }}">View more</a>
+                                                <a href="{{ url_for('static', filename='img/i8.jpg' ) }}">View more</a>
+                                                <a href="{{ url_for('static', filename='img/i9.jpg' ) }}">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="{{ url_for('static', filename='img/i21.jpeg' ) }}" style="width: 542px; height: 544px;" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Newspaper <span>Article</span></h2>
+                                                <p class="tm-figure-description">published on winning in Global Photoshoot Competition</p>
+                                                <a href="{{ url_for('static', filename='img/i21.jpeg' ) }}">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                </div>                                 
+                            </div>
+                        </div>                      
+                    </div>
+                </li>
+
+                <!-- Page 4 Gallery Three -->
+                <li>
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content" data-page-no="4" data-page-type="gallery"> 
+                            
+                            <div class="tm-img-gallery-container tm-img-gallery-container-3">
+                                <div class="tm-img-gallery gallery-three">            
+     <!-- Portfolio section -->
+    <section id="tmPortfolio">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="tm-portfolio-item">
+                <div class="tm-portfolio-name text-white tm-bg-green">
+                  Women In Engineering
+                </div>
+                <div class="tm-portfolio-description">
+                  <h3 class="tm-text-green">
+                    WIE Summit 2019
+                    <span class="tm-title-small">Organized on 9th September 2019</span>
+                  </h3>
+                  <p class="mb-0" style="color: black;">
+                    Guidance by national and international keynote speakers were provided to the attendees.
+                    The event also included Networking session and idea pitching competition
+                    IEEE Certifications were also provided for the whole session.
+                  </p>
+                </div>
+              </div>
+  
+              <div class="tm-portfolio-item">
+                <div class="tm-portfolio-name text-white tm-bg-orange">
+                  IEEE Day
+                </div>
+                <div class="tm-portfolio-description">
+                  <h3 class="tm-text-orange">
+                    Celebrated in our campus
+                    <span class="tm-title-small">On 10th October 2019</span>
+                  </h3>
+                  <p class="mb-0" style="color: black;">
+                    We have celebrated IEEE day in our campus on 10th Oct 2019, and performed photoshoot on IEEE too.
+                    We had also sent these photos on "Global Photoshoot Competition" of IEEE and won 1st prize in the long video category too. 
+                    We had also arranged the C-Gramming programming competition on this occassion.
+                  </p>
+                </div>
+              </div>
+  
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End portfolio section -->
+
+
+
+
+                           <!-- 
+                                <!-- Gallery Two pop up connected with JS code below 
+                                    
+                                    <div class="tm-img-gallery-info-container">                                    
+                                        <h2 class="tm-text-title tm-gallery-title"><span class="tm-white">Third Image Grid</span></h2>
+                                        <p class="tm-text"><span class="tm-white">Nulla efficitur, ligula et imperdiet volutpat, lacus tortor tempus massa, eget tempus quam nibh vel nulla. Maecenas purus sem, lobortis id odio in, ultrices scelerisque sapien.</span>
+                                        </p>                                     
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="img/tm-img-11-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Picture <span>One</span></h2>
+                                                <p class="tm-figure-description">Suspendisse id placerat risus. Mauris quis luctus risus.</p>
+                                                <a href="img/tm-img-11.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="img/tm-img-12-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Picture <span>Two</span></h2>
+                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
+                                                <a href="img/tm-img-12.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="img/tm-img-13-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Picture <span>Three</span></h2>
+                                                <p class="tm-figure-description">Suspendisse id placerat risus. Mauris quis luctus risus.</p>
+                                                <a href="img/tm-img-13.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="img/tm-img-14-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Picture <span>Four</span></h2>
+                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
+                                                <a href="img/tm-img-14.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="img/tm-img-15-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Picture <span>Five</span></h2>
+                                                <p class="tm-figure-description">Suspendisse id placerat risus. Mauris quis luctus risus.</p>
+                                                <a href="img/tm-img-15.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-ruby">
+                                            <img src="img/tm-img-16-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Picture <span>Six</span></h2>
+                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
+                                                <a href="img/tm-img-16.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>                                                                                                 
+                                .tm-img-gallery-container -->
+                            </div>                                 
+                        </div> 
+                        </div>         
+                    </div>  
+                </li>
+
+                <!-- Page 5 About -->
+                <li>
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content tm-page-width" data-page-no="5">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding tm-white-box-margin-b">
+                                            <h2 class="tm-text-title">IEEE</h2>
+                                            <p class="tm-text">
+                                                IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity. Below, you can find IEEE's mission and vision statements.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
+                                            <h2 class="tm-text-title">Mission</h2>
+                                            <p class="tm-text">
+                                                IEEE's core purpose is to foster technological innovation and excellence for the benefit of humanity.
+                                            </p>
+                                        </div>
+                                        <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
+                                            <h2 class="tm-text-title">Vision</h2>
+                                            <p class="tm-text">
+                                                IEEE will be essential to the global technical community and to technical professionals everywhere, and be universally recognized for the contributions of technology and of technical professionals in improving global conditions.
+                                            </p>     
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="member-item">
+                                            <div class="thumb">
+                                                <img src="{{ url_for('static', filename='img/m1.jpg' ) }}" alt="Dr. Shrikank Sonekar - Member Execom, Nagpur Subsection">
+                                            </div>
+                                            <h4>Dr. Shrikank Sonekar</h4>
+                                            <span>Member Execom, Nagpur Subsection</span>
+                                        </div> <!-- /.member-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="member-item">
+                                            <div class="thumb">
+                                                <img src="{{ url_for('static', filename='img/m2.jpeg' ) }}" alt="Prof. Manoj Titre - Branch Counsellor">
+                                            </div>
+                                            <h4>Prof. Manoj Titre</h4>
+                                            <span>Branch Counsellor</span>
+                                        </div> <!-- /.member-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="member-item">
+                                            <div class="thumb">
+                                                <img src="{{ url_for('static', filename='img/m3.jpeg' ) }}" alt="Mr. Nakul Gopal - Chair">
+                                            </div>
+                                            <h4>Mr. Nakul Gopal</h4>
+                                            <span>Chair</span>
+                                        </div> <!-- /.member-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                </div> <!-- /.row -->
+
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="member-item">
+                                            <div class="thumb">
+                                                <img src="{{ url_for('static', filename='img/m6.jpeg' ) }}" alt="Mr. Vaibhav Pandey - Co Chair">
+                                            </div>
+                                            <h4>Mr. Vaibhav Pandey</h4>
+                                            <span>Co Chair</span>
+                                        </div> <!-- /.member-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="member-item">
+                                            <div class="thumb">
+                                                <img src="{{ url_for('static', filename='img/m5.jpg' ) }}" alt="Mr. Sagar Kadwe - Secretary">
+                                            </div>
+                                            <h4>Mr. Sagar Kadwe</h4>
+                                            <span>Secretary</span>
+                                        </div> <!-- /.member-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="member-item">
+                                            <div class="thumb">
+                                                <img src="{{ url_for('static', filename='img/m4.jpeg' ) }}" alt="Ms. Vaibhavi Kengale - Joint Secretary">
+                                            </div>
+                                            <h4>Ms. Vaibhavi Kengale</h4>
+                                            <span>Joint Secretary</span>
+                                        </div> <!-- /.member-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                </div> <!-- /.row -->
+
+
+
+                            </div>                        
+                        </div>              
+                    </div> <!-- .cd-full-width -->
+
+                </li>
+
+                <!-- Page 6 Contact Us -->
+                <li>
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content tm-page-pad" data-page-no="6">
+                            <div class="tm-contact-page">                                
+                                <div class="row">
+                                    <div class="col-6 align-self-center">
+                                        <div class="tm-flex tm-contact-container">                                
+                                            <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
+                                                <h2 class="tm-contact-info">Contact Us</h2>
+                                                <p class="tm-text"> 
+                                                    You can reach us here!
+                                                </p>                                                
+                                                
+                                                <!-- contact form -->
+                                                <form action="index.html" method="post" class="tm-contact-form">
+
+                                                    <div class="form-group">
+                                                        <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                                                    </div>
+                                        
+                                                    <div class="form-group">                                                        
+                                                        <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                                                    </div>                                                        
+                                                    
+                                                    <div class="form-group">
+                                                        <textarea id="contact_message" name="contact_message" class="form-control" rows="5" placeholder="Your message" required></textarea>
+                                                    </div> 
+
+                                                    <button type="submit" class="pull-xs-right tm-submit-btn">Send</button>  
+                                                
+                                                </form>  
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>    
+
+                        </div>
+                        
+                    </div> <!-- .cd-full-width -->
+                </li>
+            </ul> <!-- .cd-hero-slider -->
+            
+            <footer class="tm-footer">
+            
+                <div class="tm-social-icons-container text-xs-center">
+                    <a href="https://www.facebook.com/IEEE-SB-Jdcoem-107750803913305" class="tm-social-link"><i class="fa fa-facebook"></i></a>
+                    <a href="mailto:barveabhishe.ab@gmail.com" class="tm-social-link"><i class="fa fa-envelope"></i></a>
+                    <a href="https://twitter.com/IEEESBJdcoem" class="tm-social-link"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ieee_sb_jdcoem/" class="tm-social-link"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ieee-sb-jdcoem-330005191/" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
+                </div>
+                
+                <p class="tm-copyright-text">Copyright &copy; 2019 SB-JDCOEM
+                
+                - Design Template: <a rel="nofollow" href="http://www.templatemo.com/page/1" class="tm-footer-link" target="_parent">Templatemo</a></p>
+
+            </footer>
+                    
+        </div> <!-- .cd-hero -->
+        
+
+        <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
+        <div id="loader-wrapper">
+            
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+        </div>
+        
+        <!-- load JS files -->
+        <script src="{{ url_for('static', filename='js/jquery-1.11.3.min.js' ) }}"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) --> 
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js' ) }}"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
+        <script src="{{ url_for('static', filename='js/hero-slider-main.js' ) }}"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
+        <script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js' ) }}"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+        
+        <script>
+
+            function adjustHeightOfPage(pageNo) {
+
+                var offset = 80;
+                var pageContentHeight = 0;
+
+                var pageType = $('div[data-page-no="' + pageNo + '"]').data("page-type");
+
+                if( pageType != undefined && pageType == "gallery") {
+                    pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .tm-img-gallery-container").height();
+                }
+                else {
+                    pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height();
+                }
+
+                if($(window).width() >= 992) { offset = 120; }
+                else if($(window).width() < 480) { offset = 40; }
+               
+                // Get the page height
+                var totalPageHeight = 15 + $('.cd-slider-nav').height()
+                                        + pageContentHeight + offset
+                                        + $('.tm-footer').height();
+
+                // Adjust layout based on page height and window height
+                if(totalPageHeight > $(window).height()) 
+                {
+                    $('.cd-hero-slider').addClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", totalPageHeight + "px");
+                }
+                else 
+                {
+                    $('.cd-hero-slider').removeClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", "100%");
+                }
+            }
+
+            /*
+                Everything is loaded including images.
+            */
+            $(window).load(function(){
+
+                adjustHeightOfPage(1); // Adjust page height
+
+                /* Gallery One pop up
+                -----------------------------------------*/
+                $('.gallery-one').magnificPopup({
+                    delegate: 'a', // child items selector, by clicking on it popup will open
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+				
+				/* Gallery Two pop up
+                -----------------------------------------*/
+				$('.gallery-two').magnificPopup({
+                    delegate: 'a',
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+
+                /* Gallery Three pop up
+                -----------------------------------------*/
+                $('.gallery-three').magnificPopup({
+                    delegate: 'a',
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+
+                /* Collapse menu after click 
+                -----------------------------------------*/
+                $('#tmNavbar a').click(function(){
+                    $('#tmNavbar').collapse('hide');
+
+                    adjustHeightOfPage($(this).data("no")); // Adjust page height       
+                });
+
+                /* Browser resized 
+                -----------------------------------------*/
+                $( window ).resize(function() {
+                    var currentPageNo = $(".cd-hero-slider li.selected .js-tm-page-content").data("page-no");
+                    
+                    // wait 3 seconds
+                    setTimeout(function() {
+                        adjustHeightOfPage( currentPageNo );
+                    }, 1000);
+                    
+                });
+        
+                // Remove preloader (https://ihatetomatoes.net/create-custom-preloading-screen/)
+                $('body').addClass('loaded');
+                           
+            });
+
+            
+
+        </script>            
+
+</body>
+</html>
